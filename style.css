@@ -2,7 +2,7 @@ html{
     box-sizing: border-box;
 }
 body{
-    margin: 6px;
+    
     background-color: bisque;
 }
 
@@ -14,7 +14,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;    
-    background-color: rgba(128, 128, 128, 0.356);    
+    background-color: rgb(128, 128, 128);    
 }
 
 nav{
@@ -36,7 +36,13 @@ a:hover{
     transition: all ease-in-out 125ms;
 }
 
+image{
+    display: block;
+    max-width: 100%;
+}
+
 .intro{
+    padding-top: 80px;
     display: flex;
     max-width: 100%;
     background-color: yellow;    
@@ -57,7 +63,8 @@ a:hover{
 
 @media (min-width: 750px){
     body{
-        margin: 24px;
+        margin-left: 24px;
+        margin-right: 24px;
     }
     header{
         position: fixed;
@@ -65,7 +72,7 @@ a:hover{
         left: 0;
         z-index: 999px;
         width: 100%;
-        margin: 10px;
+        
     }
     header h2{
         margin: 24px;
