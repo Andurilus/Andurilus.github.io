@@ -1,19 +1,18 @@
 html{
     box-sizing: border-box;
 }
+
 body{
     
     background-color: bisque;
 }
-
 
 *, *:before, *:after{
     box-sizing: inherit;
 }
 
 header{
-    display: flex;
-    justify-content: space-between;    
+       
     background-color: rgb(128, 128, 128);    
 }
 
@@ -36,25 +35,23 @@ a:hover{
     transition: all ease-in-out 125ms;
 }
 
-image{
+img{
     display: block;
-    max-width: 100%;
+    max-width: 100%;    
 }
 
 .intro{
     padding-top: 80px;
-    display: flex;
-    max-width: 100%;
+    
+    width: 100%;
     background-color: yellow;    
     font-family: 'Roboto';
     font: 100;
-    line-height: 1.3em;
-    
+    line-height: 1.3em;    
 }
 
-.skills{
-    display: flex;
-    max-width: 100%;
+.skills{    
+    width: 100%;
     background-color: deepskyblue;
     font-family: 'Roboto';
     font: 100;
@@ -66,22 +63,24 @@ image{
         margin-left: 24px;
         margin-right: 24px;
     }
+    
     header{
+        display: flex;
+        justify-content: space-between; 
         position: fixed;
         top: 0;
         left: 0;
         z-index: 999px;
-        width: 100%;
-        
+        width: 100%;        
     }
+
     header h2{
         margin: 24px;
-    }
+    }   
 
     footer{
         margin: 24px;
     }
-
     
 }
 
@@ -91,5 +90,13 @@ image{
         font-size: larger;
         margin-left: auto;
         margin-right: auto;
+    }
+    .intro{
+        display: flex;
+        align-items: flex-start;
+    }
+    .skills{
+        display: flex;
+        align-items: flex-start;
     }
 }
