@@ -41,7 +41,7 @@ img{
 }
 
 .intro{
-    padding-top: 80px;
+    
     
     width: 100%;
     background-color: yellow;    
@@ -92,11 +92,16 @@ img{
         margin-right: auto;
     }
     .intro{
+        padding-top: 80px;
         display: flex;
         align-items: flex-start;
+        line-height: 1.5em;
     }
     .skills{
         display: flex;
         align-items: flex-start;
+    }
+    p{
+        margin: 12px;
     }
 }
