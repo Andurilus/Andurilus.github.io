@@ -4,7 +4,7 @@ html{
 
 body{
     
-    background-color: bisque;
+    background-color: var(--background-color);
 }
 
 *, *:before, *:after{
@@ -13,7 +13,7 @@ body{
 
 header{
        
-    background-color: rgb(128, 128, 128);    
+    background-color: var(--nav-color);    
 }
 
 nav{
@@ -43,7 +43,7 @@ img{
 .intro{
 
     width: 100%;
-    background-color: yellow;    
+    background-color: var(--intro-color);    
     font-family: 'Roboto';
     font: 100;
     line-height: 1.3em;    
@@ -51,7 +51,7 @@ img{
 
 .skills{    
     width: 100%;
-    background-color: deepskyblue;
+    background-color: var(--skills-color);
     font-family: 'Roboto', Helvetica, sans-serif;
     font: 100;
     line-height: 1.5em;
@@ -59,8 +59,13 @@ img{
 
 .projects{
     width: 100%;
-    background-color: yellow;
+    background-color: rgb(0, 0, 27);
     font-family: 'Roboto', Helvetica, sans-serif;
+    color: white;
+}
+
+.projects a{
+    color: white;
 }
 
 .emblems{
@@ -74,7 +79,7 @@ i{
 }
 
 .subtitle{
-    background-color: red;
+    background-color: var(--title-color);
     margin-top: -21px;
     margin-bottom: -22px;
 }
