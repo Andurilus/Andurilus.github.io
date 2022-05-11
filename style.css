@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    
+    margin: 5px;
     background-color: var(--background-color);
 }
 
@@ -18,7 +18,7 @@ header{
 
 nav{
     display: flex;    
-    margin-top: 12px;
+    margin-top: 5px;
 }
 
 nav p{    
@@ -87,7 +87,7 @@ i{
 
 .logo p{
     font-family: 'Great Vibes', cursive;
-    font-size: 160px;
+    font-size: 140px;
     text-align: center;
 }
 
