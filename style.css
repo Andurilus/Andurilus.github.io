@@ -83,13 +83,18 @@ i{
     background-color: var(--title-color);
     margin-top: -21px;
     margin-bottom: -22px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .logo p{
     font-family: 'Great Vibes', cursive;
     font-size: 140px;
     text-align: center;
 }
+
+
 
 
 
@@ -144,9 +149,16 @@ i{
     .bio{
         display: flex;
     }
+    .bio-start h2{
+        margin-left: 24px;
+    }
+    .bio-start p{
+        max-width: 500px;
+    }
     .skills{
         display: flex;
         align-items: flex-start;
+        
     }
     .emblems{
         margin-top: 80px;
@@ -173,7 +185,12 @@ i{
         width: 600px;
         height: 400px;
     }
-    
+    .subtitle{
+        height: 100px;
+    }
+    .subtitle h1{
+        padding-top: 20px;
+    }
 }
 
 @media (min-width: 1200px){
