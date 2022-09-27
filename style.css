@@ -95,7 +95,10 @@ i{
     text-align: center;
 }
 
-
+.contacts{
+    display: flex;
+    background-color: var(--nav-color);
+}
 
 
 
@@ -154,7 +157,6 @@ i{
     .bio img{
         width: 300px;
         height: 250px;
-        
     }
     
     .bio-start h2{
