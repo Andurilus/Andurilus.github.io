@@ -152,8 +152,9 @@ i{
     }
 
     .bio img{
-        height: 250px;
         width: 300px;
+        height: 250px;
+        
     }
     
     .bio-start h2{
